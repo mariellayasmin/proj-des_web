@@ -1,0 +1,109 @@
+html{
+    font-family: "Montserrat",sans-serif;
+    font-size: clamp(1rem,calc(0.5rem + 1w),3rem);
+    background-color: #dadada;
+}
+.btn-normal{
+    background-color: #96bb7c;
+    color: white;
+    padding: 9px 10px 9px 10px;
+    border-radius: 6px;
+}
+.btn-border{
+    padding: 9px 10px 9px 10px;
+    border-radius: 6px;
+    color: #96bb7c;
+    border: 2px solid #96bb7c;
+    font-weight: 600;
+    margin: 1vw 1vw 1vw 1vw;
+}
+section h2{
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+}
+section h3{
+    color: #96bb7c;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+header{
+    background-color: #f6ced1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw 5vw 10vw;
+}
+header nav ul{
+    display: flex;
+    gap: 16px;
+    font-size: 0.8rem;
+}
+/* === banner ===*/
+
+section.banner{
+    background-color: #f6ced1;
+    padding: 5vw 10vw 0 10vw;
+    display: flex;
+    gap: 1vw;
+}
+section.banner p{
+    font-size: small;
+    color: black;
+    margin: 2vw 0vw 2vw 0vw ;
+}
+section.banner h3{
+    margin: 5vw 0vw 5vw 0vw;
+}
+section.team{
+    padding: 5vw 10vw 0 10vw;
+}
+section.team h2{
+    font-size: 1.5rem;
+    margin: 1vw 0vw 1vw 0vw;
+}
+section.team ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 5vw;
+}
+section.team p{
+    font-size: small;
+    color: black;
+    margin: 2vw 0vw 2vw 0vw ;
+}
+section.team ul li{
+    width: 20%;
+}
+section.team ul li h4{
+    text-align: center;
+    font-weight: 600;
+}
+section.team ul li p{
+    text-align: center;
+}
+section.news{
+    background-color:#f6ced1 ;
+    padding: 10vw;
+}
+section.news h3{
+    text-align: center;
+}
+section.news h2{
+    font-size: 1.5rem;
+    margin: 2vw 0vw 2vw 10vw;
+}
+section.news p{
+    font-size: small;
+    color: black;
+    margin: 2vw 0vw 2vw 10vw ;
+}
+footer p{
+    font-size: 0.7rem;
+    margin: 2vw 0vw 2vw 10vw ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vw 0vw 5vw 0vw;
+}
