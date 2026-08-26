@@ -1,0 +1,89 @@
+html {
+  font-size: clamp(1rem, calc(0.5rem + 1vw), 1.625rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  text-align: center;
+  padding: 3vw 0 3vw 0;
+}
+header nav ul li {
+  color: grey;
+  margin: 2vw 0 0 0;
+}
+section.banner{
+  padding: 20px;
+}
+section.banner h2{
+  font-size: 2rem;
+  font-weight:bold ;
+}
+section.banner h2 span{
+  color: #458FF6;
+}
+section.banner p{
+  color: #7D7987;
+}
+section.banner p a{
+  color: white;
+  background-color: #458FF6;
+  border-radius: 30px;
+  padding: 8px 16px 8px 16px ;
+  display: inline-block;
+}
+section.cuidados h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+section.cuidados h2 span{
+  border-bottom: 2px solid black;
+  padding: 0 0 2vw 0;
+  display: inline-block;
+}
+section.cuidados{
+  text-align: center;
+  padding: 20px;
+}
+section.cuidados p {
+  color: grey;
+}
+section.cuidados ul li{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 3vw 0 0 0;
+}
+section.cuidados ul li h3{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw 2vw 10vw;
+  }
+  header nav ul {
+    display: flex; 
+    gap: 20px;
+  }
+  section.banner{
+    display: flex;
+    gap: 3vw;
+    padding: 2vw 10vw 2vw 10vw;
+  }
+  section.banner h2{
+    padding: 5vw 0 0 0;
+  }
+  section.banner p{
+    padding: 1vw 0 0 0;
+  }
+  section.banner a:hover {
+    background-color: #c3d7f3;
+    color: #458FF6;
+  }
+
+}
